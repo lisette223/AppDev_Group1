@@ -28,7 +28,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="80"/>
+            <point key="canvasLocation" x="-952" y="80"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="opN-Jr-HL7">
@@ -159,7 +159,45 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A8g-aq-xJ2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="928.98550724637687" y="-31.473214285714285"/>
+            <point key="canvasLocation" x="929" y="80"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="GS8-Ml-4fo">
+            <objects>
+                <viewController id="tg6-tb-IIX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g51-St-SvY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="tFd-3h-WLB">
+                                <rect key="frame" x="20" y="64" width="263.5" height="78.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOV-7A-1cQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="263.5" height="48"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No announcements at the moment" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Bb-Sf-dC2">
+                                        <rect key="frame" x="0.0" y="58" width="263.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FEp-tJ-Jho"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tFd-3h-WLB" firstAttribute="leading" secondItem="FEp-tJ-Jho" secondAttribute="leading" constant="20" id="Ulw-K5-FRY"/>
+                            <constraint firstItem="tFd-3h-WLB" firstAttribute="top" secondItem="FEp-tJ-Jho" secondAttribute="top" constant="20" id="Ygd-ur-Nnb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RwQ-qj-OwJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1670" y="-12"/>
         </scene>
     </scenes>
     <resources>
